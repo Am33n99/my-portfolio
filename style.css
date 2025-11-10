@@ -57,7 +57,7 @@ body {
     height: 100vh;
     position: relative;
     justify-content: space-between;
-    background: url(./bcg1.jpg) no-repeat;
+    /* background: url(./bcg1.jpg) no-repeat; */
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -150,12 +150,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 6rem;
-     
-    /* justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 6rem; */
+    height: 100vh;
 }
 .about-img img {
     padding-bottom: 20%;
@@ -178,6 +173,9 @@ body {
     margin: 15px 0 30px;
 }
 
+.about #btn {
+    margin-top: 30px;
+}
 
 
 
