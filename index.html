@@ -23,19 +23,19 @@
       <div class="logo">Portfolio.</div>
       <div class="navbar">
         <nav>
-          <a href="#" style="--i: 1" class="active">home</a>
-          <a href="#" style="--i: 2">about</a>
-          <a href="#" style="--i: 3">services</a>
-          <a href="#" style="--i: 4">skills</a>
-          <a href="#" style="--i: 5">project</a>
-          <a href="#" style="--i: 6">contact</a>
+          <a href="#home" style="--i: 1" class="active">home</a>
+          <a href="#about" style="--i: 2">about</a>
+          <a href="#services" style="--i: 3">services</a>
+          <a href="#skills" style="--i: 4">skills</a>
+          <a href="#project" style="--i: 5">project</a>
+          <a href="#contact" style="--i: 6">contact</a>
         </nav>
       </div>
     </header>
     <!-- navbar end -->
 
     <!-- home strt  -->
-    <section class="home">
+    <section class="home" id="home">
       <div class="home-content">
         <h3>Hello It's Me</h3>
         <h1>Ameen Magsi</h1>
@@ -45,8 +45,8 @@
           to create and design Frontend design.
         </p>
         <div class="sci">
-          <a href="#" style="--i: 7"><i class="ri-facebook-fill"></i></a>
-          <a href="#" style="--i: 8"><i class="ri-whatsapp-line"></i></a>
+          <a href="https://www.facebook.com/fb.ameenmagsi" style="--i: 7"><i class="ri-facebook-fill"></i></a>
+          <a href="https://wa.me/923158480693" style="--i: 8"><i class="ri-whatsapp-line"></i></a>
           <a href="#" style="--i: 9"><i class="ri-instagram-line"></i></a>
           <a href="#" style="--i: 10"><i class="ri-tiktok-fill"></i></a>
         </div>
@@ -57,15 +57,20 @@
 
     <!--about strt-->
     <section class="about" id="about">
-        <div class="about-img">
-            <!-- <img src="./bcg3.png" alt=""> -->
-        </div>
-        <div class="about-text">
-            <h2>About&nbsp;<span>Me</span></h2>
-            <h4>Frontend Devloper</h4>
-            <p>I'm a passionate Frontend Developer who loves crafting clean, responsive, and user-friendly websites. I focus on turning creative ideas into functional and visually appealing digital experiences using HTML, CSS, JavaScript, and modern frameworks.</p>
-            <a href="#" class="btn-box" id="btn">More About Me</a>
-        </div>
+      <div class="about-img">
+        <!-- <img src="./bcg.png" alt=""> -->
+      </div>
+      <div class="about-text">
+        <h2>About&nbsp;<span>Me</span></h2>
+        <h4>Frontend Devloper</h4>
+        <p>
+          I'm a passionate Frontend Developer who loves crafting clean,
+          responsive, and user-friendly websites. I focus on turning creative
+          ideas into functional and visually appealing digital experiences using
+          HTML, CSS, JavaScript, and modern frameworks.
+        </p>
+        <a href="#" class="btn-box" id="btn">More About Me</a>
+      </div>
     </section>
     <!--about end-->
 
@@ -73,24 +78,30 @@
     <section>
       <div class="sevices" id="services">
         <div class="container">
-          <h1 class="sub-tittle">My<span>Services</span></h1>
+          <h1 class="sub-tittle">My <span>Services</span></h1>
           <div class="service-list">
             <div>
-              <i class="ri-code-s-slash-line" style="color: #0ef;"></i>
-              <h2>UI/UX Design</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla similique doloribus aperiam illum placeat inventore ut aliquid impedit maiores velit.</p>
+              <i class="ri-code-s-slash-line" style="color: #0ef"></i>
+              <h2>Web Development</h2>
+              <p>
+                "I specialize in crafting responsive, accessible, and visually engaging websites using HTML, CSS, JavaScript, and modern frameworks. Whether it's a landing page or a full-scale web app, I bring ideas to life with clean, efficient code."
+              </p>
               <a href="#" class="read">Learn More</a>
             </div>
             <div>
-              <i class="ri-crop-line" style="color: #0ef;"></i>
+              <i class="ri-crop-line" style="color: #0ef"></i>
               <h2>UI/UX Design</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla similique doloribus aperiam illum placeat inventore ut aliquid impedit maiores velit.</p>
+              <p>
+                "My focus is on designing intuitive user interfaces and seamless user experiences. I combine wireframing, prototyping, and user research to create designs that are not only beautiful but also functional and user-centered."
+              </p>
               <a href="#" class="read">Learn More</a>
             </div>
             <div>
-              <i class="ri-apple-fill" style="color: #0ef;"></i>
-              <h2>UI/UX Design</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla similique doloribus aperiam illum placeat inventore ut aliquid impedit maiores velit.</p>
+              <i class="ri-apple-fill" style="color: #0ef"></i>
+              <h2>Brand Identity</h2>
+              <p>
+                "I help brands stand out by creating cohesive visual identities — from logos and color palettes to typography and digital assets. My goal is to make your brand instantly recognizable and emotionally resonant."
+              </p>
               <a href="#" class="read">Learn More</a>
             </div>
           </div>
@@ -99,55 +110,47 @@
     </section>
     <!-- services -->
 
+    <!-- skills -->
     <h1 class="sub-tittle">My <span>Skills</span></h1>
-
-    <section>
-      <div class="container1" id="Skills">
+    <section class="skills-section">
+      <div class="container1" id="skills">
         <h1 class="heading1">Technical Skills</h1>
         <div class="technical-bars">
-          <div class="bar"><i style="color: #c95d2e" class="ri-html5-fill"></i>
-            <div class="info">
-              <span>HTML</span>
-            </div>
-            <div class="progress-line html">
-              <span id="sp"></span>
-            </div>
-          <div class="bar"><i style="color: #147bbc" class="ri-css3-fill"></i>
-            <div class="info">
-              <span>CSS</span>
-            </div>
-            <div class="progress-line css">
-              <span id="sp"></span>
-            </div>
-          <div class="bar"><i style="color: #b0bc1e" class="ri-javascript-fill"></i>
-            <div class="info">
-              <span>Javascript</span>
-            </div>
-            <div class="progress-line Javascript">
-              <span id="sp"></span>
-            </div>
-          <div class="bar"><i style="color: #777BB3" class="ri-php-fill"></i>
-            <div class="info">
-              <span>php</span>
-            </div>
-            <div class="progress-line php">
-              <span id="sp"></span>
-            </div>
-          <div class="bar"><i style="color: #69bcbc" class="ri-reactjs-fill"></i>
-            <div class="info">
-              <span>React</span>
-            </div>
-            <div class="progress-line react">
-              <span id="sp"></span>
-            </div>
+          <div class="bar">
+            <i style="color: #c95d2e" class="ri-html5-fill"></i>
+            <div class="info"><span>HTML</span></div>
+            <div class="progress-line html"><span id="sp"></span></div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #147bbc" class="ri-css3-fill"></i>
+            <div class="info"><span>CSS</span></div>
+            <div class="progress-line css"><span id="sp"></span></div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #b0bc1e" class="ri-javascript-fill"></i>
+            <div class="info"><span>Javascript</span></div>
+            <div class="progress-line Javascript"><span id="sp"></span></div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #777bb3" class="ri-php-fill"></i>
+            <div class="info"><span>php</span></div>
+            <div class="progress-line php"><span id="sp"></span></div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #69bcbc" class="ri-reactjs-fill"></i>
+            <div class="info"><span>React</span></div>
+            <div class="progress-line react"><span id="sp"></span></div>
           </div>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container1">
         <h1 class="heading1">Professional Skills</h1>
         <div class="radial-bars">
-
           <div class="radial-bar">
             <svg x="0px" y="0px" viewBox="0 0 200 200">
               <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
@@ -175,7 +178,6 @@
             <div class="text">Problem Solving</div>
           </div>
           <div class="radial-bar">
-
             <svg x="0px" y="0px" viewBox="0 0 200 200">
               <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
               <circle class="path path-4" cx="100" cy="100" r="80"></circle>
@@ -183,12 +185,95 @@
             <div class="percentage">85%</div>
             <div class="text">Team Work</div>
           </div>
-
         </div>
       </div>
     </section>
-    
-    
+    <!-- skills -->
+
+    <!-- projects -->
+    <section>
+      <div class="portfolio" id="project">
+        <div class="main-text" id="project">
+          <h2>Latest <span>Projects</span></h2>
+
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="./ui3.jpg" alt="" />
+              <div class="layer">
+                <h5>Crypto Wallet & Finance UI</h5>
+                <p>
+                  "I design intuitive and secure financial interfaces that simplify crypto transactions and portfolio management. From wallet overviews to transaction histories, my layouts focus on clarity, trust, and seamless user experience across devices."
+                </p>
+
+                <a href="#"><i class="ri-external-link-fill"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="./ui2.jpg" alt="" />
+              <div class="layer">
+                <h5>Contact Management UI</h5>
+                <p>
+                  "I design clean and intuitive contact management interfaces that make communication effortless. From smart search and profile previews to multi-mode layouts and action icons, my designs focus on clarity, accessibility, and seamless user interaction across devices."
+                </p>
+
+                <a href="#"><i class="ri-external-link-fill"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="./ui1.jpg" alt="" />
+              <div class="layer">
+                <h5>Car Rental App UI</h5>
+                <p>
+                  "I create sleek and user-friendly car rental interfaces that make browsing, comparing, and booking vehicles effortless. From dynamic search filters to detailed car specs and dealer offers, my designs focus on clarity, speed, and a premium user experience."
+                </p>
+
+                <a href="#"><i class="ri-external-link-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work together</h4>
+        <p>
+          "I'm always excited to collaborate on creative and impactful projects. Whether you're looking to build a stunning website, refine your UI/UX, or bring your digital ideas to life — let's connect and make it happen."
+        </p>
+        <div class="contact-list">
+          <li><i class="ri-send-plane-fill"></i> &nbsp;ameenmagsi1899@outlook.com</li>
+          <li><i class="ri-phone-fill"></i> &nbsp;+92 315-8480693</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://www.facebook.com/fb.ameenmagsi" style="--i: 11"><i class="ri-facebook-fill"></i></a>
+          <a href="https://x.com/ameen_1899" style="--i: 12"><i class="ri-twitter-fill"></i></a>
+          <a href="#" style="--i: 13"><i class="ri-instagram-line"></i></a>
+          <a href="https://linkedin.com/in/muhammad-ameen-8b7170374" style="--i: 14"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+            <input type="" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <input type="" placeholder="Enter Your Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+            <input type="submit" value="Submit" class="send">
+        </form>
+      </div>
+    </section>
+    <!-- contact -->
+
+    <div class="last-text">
+        <p>Coded By Ameen Magsi &copy; 2025</p>
+    </div>
+    <a href="#home" class="top"><i class="ri-arrow-up-line"></i></a>
+
     <script src="./script.js"></script>
   </body>
 </html>
