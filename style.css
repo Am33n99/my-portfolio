@@ -58,9 +58,9 @@ body {
     height: 100vh;
     position: relative;
     justify-content: space-between;
-    /* background: url(./gpt.png) no-repeat; */
+    background: url(./Png.png) no-repeat;
     background-position: right center;
-    background-size: 400px auto;
+    background-size:  400px auto;
     color: #fff;
     display: flex;
     align-items: center;
@@ -552,7 +552,7 @@ body {
     width: 100%;
     position: absolute;
     text-align: center;
-    left: 50%;
+    left: 20%;
     bottom: -5px;
     transform: translateX(-50px);
     font-size: 17px;
@@ -623,14 +623,14 @@ body {
 }
 
 .layer h5 {
-    color: #fff;
+    color: #000;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.8;
@@ -732,7 +732,7 @@ body {
     transition: .5s ease;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.2s  var(--i));
+    animation-delay: calc(.2s var(--i));
 }
 
 .contact-icons a:hover {
@@ -747,8 +747,8 @@ form textarea {
     outline: none;
     width: 90%;
     padding: 18px;
-    background: #555557;
-    color: #fff;
+    background: #fff;
+    color: #000;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -796,29 +796,27 @@ form textarea {
 }
 
 .top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #0ef;
-  color: #081b29;
-  border-radius: 50%;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.4s ease;
-  opacity: 0;
-  pointer-events: none; /* prevents clicks when hidden */
-  box-shadow: 0 0 15px #0ef;
-  z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0ef;
+    color: #081b29;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 15px #0ef;
+    z-index: 999;
 }
 
-/* When visible */
 .top.active {
-  opacity: 1;
-  pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
-
 
 .top i {
     color: #000;

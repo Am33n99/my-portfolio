@@ -9,7 +9,7 @@ let typed = new Typed(".text", {
 
 window.addEventListener("scroll", function() {
   const scrollBtn = document.querySelector(".top");
-  if (window.scrollY > 300) {  // show after scrolling 300px
+  if (window.scrollY > 300) {  
     scrollBtn.classList.add("active");
   } else {
     scrollBtn.classList.remove("active");
