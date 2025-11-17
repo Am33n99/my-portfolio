@@ -5,3 +5,13 @@ let typed = new Typed(".text", {
   backDelay: 1000,
   loop: true,
 });
+
+
+window.addEventListener("scroll", function() {
+  const scrollBtn = document.querySelector(".top");
+  if (window.scrollY > 300) {  
+    scrollBtn.classList.add("active");
+  } else {
+    scrollBtn.classList.remove("active");
+  }
+});
